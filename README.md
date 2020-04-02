@@ -1,36 +1,13 @@
 # Backend-GraphQL-Apollo-Test
 
-npm install
-npm install apollo-datasource-rest --save
--------------------------------------------------
+# Apollo tutorial
 
-query GetLaunches {
-  launches(pageSize: 3) {
-    launches {
-      id
-      mission {
-        name
-      }
-      rocket {
-        id
-        type
-      }
+This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
 
-    }
-  }
-}
+## Installation
 
--------------------------------------------------
+To run the app, run these command
 
-query GetLaunchById($id: ID!) {
-  launch(id: $id) {
-    id
-    rocket {
-      id
-      type
-    }
-  }
-}
-
-
-{ "id": 60 }
+```bash
+npm i && npm start
+```

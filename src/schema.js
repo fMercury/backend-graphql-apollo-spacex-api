@@ -24,9 +24,7 @@ type User {
 
 type Mission {
   name: String
-  # ... with rest of schema
   missionPatch(mission: String, size: PatchSize): String
-  }
 }
 
 enum PatchSize {
