@@ -1,8 +1,6 @@
-# Backend-GraphQL-Apollo-Test
+# Backend-GraphQL-Apollo-Tutorial
 
-# Apollo tutorial
-
-This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
+This is the backend side of the app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
 
 ## Installation
 
